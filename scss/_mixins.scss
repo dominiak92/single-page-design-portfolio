@@ -29,7 +29,7 @@
 @mixin logo($width, $height) {
     width: $width;
     height: $height;
-    background: url('https://dominiak92.github.io/single-page-design-portfolio/starter-code/assets/logo.svg');
+    background: url(../starter-code/assets/logo.svg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
