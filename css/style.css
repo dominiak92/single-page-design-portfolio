@@ -351,7 +351,7 @@ body {
 .header__logo {
   width: 48px;
   height: 48px;
-  background: url(/starter-code/assets/logo.svg);
+  background: url(./starter-code/assets/logo.svg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -361,7 +361,7 @@ body {
   .header__logo {
     width: 64px;
     height: 64px;
-    background: url(/starter-code/assets/logo.svg);
+    background: url(./starter-code/assets/logo.svg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -820,7 +820,7 @@ body {
   }
 }
 .about__photo {
-  background: url(/starter-code/assets/image-amy.webp);
+  background: url(./starter-code/assets/image-amy.webp);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -1085,7 +1085,7 @@ body {
 .footer__logo {
   width: 48px;
   height: 48px;
-  background: url(/starter-code/assets/logo.svg);
+  background: url(./starter-code/assets/logo.svg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1094,7 +1094,7 @@ body {
   .footer__logo {
     width: 64px;
     height: 64px;
-    background: url(/starter-code/assets/logo.svg);
+    background: url(./starter-code/assets/logo.svg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
