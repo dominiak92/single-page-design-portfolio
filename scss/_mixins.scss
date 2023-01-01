@@ -3,33 +3,33 @@
     @media (min-width: #{$screen-sm-min}) {
         @content;
     }
- }
- 
- // Medium devices - tablets
- @mixin md {
+}
+
+// Medium devices - tablets
+@mixin md {
     @media (min-width: #{$screen-md-min}) {
         @content;
     }
- }
- 
- // Large devices
- @mixin lg {
+}
+
+// Large devices
+@mixin lg {
     @media (min-width: #{$screen-lg-min}) {
         @content;
     }
- }
- 
- // Extra large devices
- @mixin xl {
+}
+
+// Extra large devices
+@mixin xl {
     @media (min-width: #{$screen-xl-min}) {
         @content;
     }
- }
+}
 
 @mixin logo($width, $height) {
     width: $width;
     height: $height;
-    background: url(/starter-code/assets/logo.svg);
+    background: url("./../starter-code/assets/logo.svg");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -45,7 +45,8 @@
     font-size: 14px;
     transition: 0.2s linear;
     cursor: pointer;
-    &:hover{
+
+    &:hover {
         background-color: $hover-color;
     }
 }
@@ -63,23 +64,23 @@
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-  }
+}
 
- @mixin image {
-    grid-area: 1 / 2 / 2 / 3; 
+@mixin image {
+    grid-area: 1 / 2 / 2 / 3;
     justify-self: end;
-  }
+}
 
- @mixin text {
+@mixin text {
     align-self: end;
     grid-area: 2 / 1 / 3 / 3;
     margin: 0;
     font-size: 24px;
     font-weight: $bold;
     width: auto;
-  }
+}
 
-  @mixin swipe-button {
+@mixin swipe-button {
     cursor: pointer;
     background-color: $black;
     margin: 8px;
@@ -88,7 +89,8 @@
     border-radius: 50%;
     border: 0;
     transition: 0.2s linear;
-    &:hover{
+
+    &:hover {
         background-color: $purple;
     }
-  }
+}
