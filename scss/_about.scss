@@ -1,0 +1,110 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-top: 67px;
+    width: 343px;
+    height: 602px;
+    @include md {
+        flex-direction: row;
+        width: 772px;
+        height: 364px;
+        transform: translateX(-45px)
+    }
+    @include xl {
+        margin-top: 136px;
+        width: 1110px;
+        height: 445px;
+        transform: translateX(0);
+        justify-content: space-between;
+    }
+
+    &__photo {
+    background: url(/starter-code/assets/image-amy.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 40px;
+    @include md{
+        height: 364px;
+        width: 364px;
+    }
+    @include xl{
+        height: 445px;
+        width: 445px;
+    }
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 343px;
+        height: 262px;
+        @include md {
+            align-items: flex-start;
+            width: 339px;
+            height: 364px;
+            margin-left: 69px;
+        }
+        @include xl{
+            width: 540px;
+            height: 306px;
+            margin-left: 0px;
+        }
+    }
+
+    &__title {
+        text-align: center;
+        font-size: 26px;
+        line-height: 32.76px;
+        font-weight: $bold;
+        margin: 0;
+        color: $black;
+        @include md{
+            font-size: 32px;
+            text-align: left;
+        }
+        @include xl{
+            width: 540px;
+            height: 100px;
+            font-size: 40px;
+            line-height: 50px;
+        }
+    }
+
+    &__text {
+        font-size: 16px;
+        line-height: 26px;
+        color: $gray;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        text-align: center;
+        font-weight: $regular;
+        @include md{
+            text-align: left;
+            font-size: 18px;
+        }
+        @include xl {
+            width: 540px;
+            height: 84px;
+            font-size: 18px;
+            line-height: 28px;
+            margin-top: 34px;
+            margin-bottom: 32px;
+        }
+    }
+
+    &__button{
+        @include button($red, 176px, 44px, $yellow);
+        flex-shrink: 0;
+        @include md{
+            @include button($red, 228px, 56px, $yellow);
+            font-size: 16px;
+        }
+    }
+
+}

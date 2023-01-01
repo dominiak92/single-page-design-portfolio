@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Frontend Mentor | Single-page design portfolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__wrapper">
+        <div class="header__logo"></div>
+        <button class="header__button">Free Consultation</button>
+      </div>
+      <div class="header__slogan">
+        <h1 class="header__title">Design solutions made easy</h1>
+        <p class="header__text">
+          With over ten years of experience in various design disciplines, I’m
+          your one-stop shop for your design needs.
+        </p>
+      </div>
+    </header>
+    <section class="tiles">
+      <div class="tiles__graphic">
+        <img
+          class="tiles__image"
+          src="/starter-code/assets/pattern-graphic-design.svg"
+          alt=""
+        />
+        <p class="tiles__text">Graphic Design</p>
+      </div>
+      <div class="tiles__ui">
+        <img
+          class="tiles__image"
+          src="/starter-code/assets/pattern-ui-ux.svg"
+          alt=""
+        />
+        <p class="tiles__text">UI/UX</p>
+      </div>
+      <div class="tiles__apps">
+        <img
+          class="tiles__image"
+          src="/starter-code/assets/pattern-apps.svg"
+          alt=""
+        />
+        <p class="tiles__text">Apps</p>
+      </div>
+      <div class="tiles__illustrations">
+        <img
+          class="tiles__image"
+          src="/starter-code/assets/pattern-illustrations.svg"
+          alt=""
+        />
+        <p class="tiles__text">Illustrations</p>
+      </div>
+      <div class="tiles__photography">
+        <img
+          class="tiles__image"
+          src="/starter-code/assets/pattern-photography.svg"
+          alt=""
+        />
+        <p class="tiles__text">Photography</p>
+      </div>
+      <div class="tiles__motion">
+        <img
+          class="tiles__image"
+          src="/starter-code/assets/pattern-motion-graphics.svg"
+          alt=""
+        />
+        <p class="tiles__text">Motion Graphics</p>
+      </div>
+    </section>
+    <section class="about">
+      <div class="about__photo"></div>
+      <div class="about__wrapper">
+        <h2 class="about__title">
+          I’m Amy, and I’d love to work on your next project
+        </h2>
+        <p class="about__text">
+          I love working with others to create beautiful design solutions. I’ve
+          designed everything from brand illustrations to complete mobile apps.
+          I’m also handy with a camera!
+        </p>
+        <button class="about__button">Free Consultation</button>
+      </div>
+    </section>
+    <h2 class="swiper__title">My Work</h2>
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <img
+            src="/starter-code/assets/image-slide-1.jpg"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="/starter-code/assets/image-slide-2.jpg"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+          src="/starter-code/assets/image-slide-3.jpg"
+          alt=""
+        />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="/starter-code/assets/image-slide-4.jpg"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="/starter-code/assets/image-slide-5.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+      <div class="buttons">
+        <button class="left-button">
+          <img class="left-button__img" src="/starter-code/assets/icon-arrow-left.svg" alt="" />
+        </button>
+        <button class="right-button">
+          <img class="right-button__img"src="/starter-code/assets/icon-arrow-right.svg" alt="" />
+        </button>
+    </div>
+    <section class="bottom">
+      <div class="bottom__wrapper">
+        <h2 class="bottom__title">Book a call with me</h2>
+        <p class="bottom__text">
+          I’d love to have a chat to see how I can help you. The best first step
+          is for us to discuss your project during a free consultation. Then we
+          can move forward from there.
+        </p>
+      </div>
+      <button class="bottom__button">Free Consultation</button>
+    </section>
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <div class="footer__logo"></div>
+        <button class="footer__button">Free Consultation</button>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="/starter-code/script.js" type="module" defer></script>
+  </body>
+</html>

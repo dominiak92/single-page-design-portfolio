@@ -1,0 +1,76 @@
+.bottom {
+    box-sizing: border-box;
+    background-color: $black;
+    width: 343px;
+    height: 352px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: $white;
+    padding: 24px 48px;
+    @include md{
+        width: 690px;
+        height: 352px;
+    }
+    @include xl{
+        width: 1100px;
+        height: 320px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__wrapper{
+        @include xl {
+        width: 540px;
+        height: 159px;}
+    }
+    &__title{
+        text-align: center;
+        font-size: 26px;
+        font-weight: $bold;
+        line-height: 32px;
+        margin-bottom: 24px;
+        @include md{
+            font-size: 32px;
+        }
+        @include xl {
+            font-size: 40px;
+            text-align: left;
+            margin: 0;
+            margin-bottom: 25px;
+        }
+    }
+    &__text {
+        width: 295px;
+        height: 130px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: $regular;
+        color: $white;
+        line-height: 26px;
+        margin: 0;
+        @include md{
+            font-size: 18px;
+            width: 540px;
+            height: 84px;
+        }
+        @include xl{
+            text-align: left;
+            line-height: 28px;
+        }
+    }
+    &__button{
+        margin-top: 24px;
+        @include button($red, 176px, 44px, $yellow);
+        @include md{
+            @include button($red, 228px, 56px, $yellow);
+            font-size: 16px;
+        }
+        @include xl{
+            margin-top: 0px;
+            margin-right: 47px;
+        }
+    }
+}

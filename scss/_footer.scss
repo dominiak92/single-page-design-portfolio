@@ -1,0 +1,36 @@
+.footer {
+    &__wrapper{
+        margin-top: 16px;
+        width: 343px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between; 
+        margin-top: 67px;
+        margin-bottom: 16px;
+        @include md{
+            width: 689px;
+            height: 64px;
+            margin-top: 56px;
+            margin-bottom: 56px;
+        }
+        @include xl {
+            width: 1111px;
+            height: 64px;
+        }
+    }
+    &__logo {
+        @include logo(48px, 48px);
+        @include md{
+            @include logo(64px, 64px);}
+ 
+    }
+    &__button {
+        @include button($black, 176px, 44px, $purple);
+        @include md{
+            @include button($black, 228px, 56px, $purple);
+            font-size: 16px;
+         }
+
+    }
+}
