@@ -1,6 +1,4 @@
-# Frontend Mentor - Single-page design portfolio solution
-
-This is a solution to the [Single-page design portfolio challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/singlepage-design-portfolio-2MMhyhfKVo). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+#- Single-page design portfolio
 
 ## Table of contents
 
@@ -42,4 +40,4 @@ I'm happy with how I used SCSS to create breakpoints and buttons, as well as it 
 
 ## Author
 
-- Frontend Mentor - [@sebix0nus](https://www.frontendmentor.io/profile/sebix0nus)
+- [Sebastian Dominiak](https://www.sebastiandominiak.pl)
